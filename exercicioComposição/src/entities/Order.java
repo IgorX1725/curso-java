@@ -61,7 +61,7 @@ public class Order {
 		StringBuilder sb = new StringBuilder();
 		sb.append("ORDER SUMMARY:\n");
 		sb.append("Order moment:"+sdfDateHour.format(moment)+"\n");
-		sb.append("Order statud:"+status\n+"");
+		sb.append("Order statud:"+status+"\n");
 		sb.append("Order items:\n");
 		Double total = 0.0;
 		for(OrderItem i : items) {
